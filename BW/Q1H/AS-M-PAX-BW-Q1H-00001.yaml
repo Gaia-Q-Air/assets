@@ -1,0 +1,133 @@
+# GAIA-QAO Object Instance Data
+# Filename: AS-M-PAX-BW-Q1H-00001.yaml
+# Generated based on GAIA-QAO Aerospace Documentation (Version 0.6.0)
+# Current Date: 2025-05-12
+# Status Update: Reflecting instance S/N 00001 as designated FOR flight testing.
+
+# --- Core Identification (from GAIA-QAO ID) ---
+instance_gaia_id: "AS-M-PAX-BW-Q1H-00001"
+domain:
+  code: "AS"
+  name: "Air System" # As per Part 2.2.2
+autonomy:
+  level_code: "M" # As per GAIA-QAO ID and Model Info (Part 3.2.1)
+  level_name: "Manned/Semi-Autonomous" # As per Part 2.2.2 & autonomy_levels table
+
+# --- Model Information (from Part 3.2.1 & Appendix A.1.1) ---
+model_details:
+  functional_class:
+    code: "PAX" # As per GAIA-QAO ID
+    name: "Passenger Transport" # As per functional_classes table / Part 3.2.1
+  object_category_subtype:
+    code: "BW" # As per GAIA-QAO ID
+    name: "Blended Wing Body" # As per Appendix A.1.1 for PAX ST Codes
+  model_code: "Q1H" # As per GAIA-QAO ID
+  model_name: "AMPEL360 BWB-Q100" # As per Part 3.2.1
+  description: "Small quantum-enhanced BWB passenger aircraft" # As per Part 3.2.1
+  # Decomposed from MDL Code 'Q1H' based on Part 3.1
+  generation_series: "Q" # Quantum
+  number_size: "1" # Small
+  variant_details: "H" # High-performance
+  # Key Specifications from Part 3.2.1
+  technical_specifications:
+    capacity_pax: 100
+    range_km: 5500
+    quantum_systems_integrated: # "Quantum: Nav, Opt, Comms" from Part 3.2.1
+      - "Navigation"
+      - "Optimization"
+      - "Communications"
+  # Catalog Notes from Part 3.2.1
+  catalog_notes: "Efficient BWB design with quantum navigation/optimization. Full specs in registry."
+
+# --- Instance-Specific Data ---
+instance_specific_data:
+  serial_number: "00001" # From GAIA-QAO ID
+  role_profile: "Flight Test & Baseline Definition Unit" # Purpose: to conduct flight tests and help define the baseline
+  registration_number: "EC-QBWFT" # Illustrative, "FT" for Flight Test
+  manufacturer: "GAIA Aerospace Consortium" # Illustrative (based on project context)
+  manufacturing_date: "2025-01-15" # Illustrative
+  first_flight_date: "2025-02-28" # Illustrative (first flight may have occurred, initiating test program)
+  current_operator: "GAIA-QAO Test & Evaluation Wing" # Illustrative
+  current_location:
+    type: "TestAirfieldCoordinates"
+    facility_name: "GAIA-QAO Flight Test Center"
+    latitude: "37.3171" # Illustrative
+    longitude: "-5.8070" # Illustrative
+    altitude_m: 30 # Illustrative
+    timestamp: "2025-05-12T04:21:39Z" # Reflects query time in UTC
+  operational_status: "Active (Undergoing Flight Test Program)" # Updated Status
+  airframe_hours: 75.5 # Illustrative (accumulating test hours)
+  cycles: 30 # Illustrative (accumulating test cycles)
+  instance_notes: "This unit (S/N 00001) is the primary flight test vehicle for the Q1H model. It is currently undergoing flight evaluations and systems testing to validate performance, safety, and to establish the certifiable A1 baseline configuration." # Updated Notes
+
+# --- Configuration Management (References Part 5) ---
+configuration:
+  current_configuration_code: "E1" # Experimental/Test Configuration (Part 5.2, Table Type E)
+  configuration_name: "Flight Test Instrumentation Configuration (Experimental Type E1)"
+  # configuration_establishment_date: TBD # A1 Baseline not yet established
+  notes: "Currently configured with specialized flight test instrumentation and data acquisition systems (Configuration E1). The target is to validate and finalize the A1 Baseline Production Configuration through the ongoing test program."
+  # Example: "Refer to DSN-XPR-ARC-AS-M-PAX-BW-Q1H-00001-E1-v0.8-DRAFT.md for current test configuration details"
+
+# --- Installed Subsystems (References Part 2.3, Part 4 & Appendix F) ---
+# Data below is illustrative for a unit in flight test.
+installed_subsystems:
+  - subsystem_instance_id: "AS-M-PAX-BW-Q1H-00001::PROP-QEP-L001T"
+    subsystem_type:
+      code: "PROP"
+      name: "Propulsion System"
+    subsystem_model:
+      code: "QEP" # Illustrative (QuantumEngine Prototype/Test)
+      name: "QuantumFlow Series 1 - Test Version - Left"
+    serial_number: "L001T" # "T" for Test
+    installation_date: "2025-01-10"
+    position_reference: "Port Engine Mount"
+    instrumentation_level: "Extensive (Flight Test)"
+  - subsystem_instance_id: "AS-M-PAX-BW-Q1H-00001::FCS-PFCXT-001"
+    subsystem_type:
+      code: "FCS"
+      name: "Flight Control System"
+    subsystem_model:
+      code: "PFCXT" # Illustrative (Primary Flight Control Experimental Test)
+      name: "AdvancedFlightCtrl MkI-XT (Test Variant with Data Logging)"
+    serial_number: "XT001"
+    installation_date: "2025-01-08"
+    position_reference: "Main Avionics Bay - FCS Test Rack"
+    instrumentation_level: "Extensive (Flight Test Data Acquisition)"
+  - subsystem_instance_id: "AS-M-PAX-BW-Q1H-00001::AVIO-FTI-001"
+    subsystem_type:
+      code: "AVIO" # Could also be a more specific FTI (Flight Test Instrumentation) system type
+      name: "Flight Test Instrumentation Suite"
+    subsystem_model:
+      code: "FTI01" # Illustrative
+      name: "Comprehensive FTI Package Rev A"
+    serial_number: "FTI-SN001"
+    installation_date: "2025-01-12"
+    position_reference: "Distributed (Cabin Racks, Avionics Bays)"
+  - placeholder: "Further detailed subsystem manifest (Bill of Materials), including specific test instrumentation, would be linked or included."
+
+# --- Maintenance Summary (Illustrative for an Active Flight Test Unit) ---
+maintenance_summary:
+  last_check_type: "Pre-Flight Test Block C.2 Inspection & Calibration"
+  last_check_date: "2025-05-09" # Recent
+  next_check_due_type: "Post-Sortie Inspections / Next Scheduled Test Block Review"
+  next_check_due_date: "As per flight test plan and sortie outcomes"
+  # Link to full flight test logs and maintenance records
+
+# --- Document Control (If this YAML file is a managed GAIA-QAO document) ---
+# document_metadata:
+#   title: "Object Instance Specification & Flight Test Profile for AS-M-PAX-BW-Q1H-00001"
+#   infocode: "SPC-XPR-FUN" # Example INFOCODE: Specification-Experimental-Functional
+#   version: "0.9.0" # Reflects pre-baseline status
+#   date: "2025-05-12"
+#   status: "REVIEW" # Or DRAFT, as it's for an ongoing test program
+#   authors: ["GAIA-QAO Flight Test Team"] # Illustrative
+#   security_classification: "CONFIDENTIAL" # Flight test data often is
+#   keywords: ["flight test", "experimental", "AS-M-PAX-BW-Q1H-00001", "AMPEL360 BWB-Q100"]
+#   change_log:
+#     - version: "0.9.0"
+#       date: "2025-05-12"
+#       author: "GAIA-QAO System AI"
+#       description: "YAML updated to reflect instance is FOR/IN flight testing, not completed. Status, configuration, notes, and maintenance fields adjusted per user clarification."
+#     # ... previous change log entries
+
+# --- End of AS-M-PAX-BW-Q1H-00001.yaml ---
