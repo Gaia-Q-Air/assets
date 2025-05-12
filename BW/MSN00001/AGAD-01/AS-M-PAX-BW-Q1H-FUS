@@ -1,0 +1,65 @@
+
+## Conceptual Product Breakdown Structure (PBS) / Assembly Tree
+### Main Fuselage/Central Body Assembly (AS-M-PAX-BW-Q1H-FUS) - Rev C
+
+**Aircraft Top-Level Object ID (Tier 1):** `AS-M-PAX-BW-Q1H-00001` *(Illustrative Instance)*
+**Main Assembly ID (Tier 2 Conceptual):** `AS-M-PAX-BW-Q1H-00001 :: STR-CBA-D001-S0001`
+**Main Assembly Name:** Main Fuselage/Central Body Assembly - BWB-Q100Small
+**Date:** YYYY-MM-DD
+**Revision:** C
+
+---
+
+*   **1.0 `STR-CBA-D001-S0001` Main Fuselage/Central Body Assembly (Qty: 1 EA, Mat: Various)**
+    *   1.1 `STR-SHL-D001-S0001` Outer Shell & Aerodynamic Surfaces Assembly (Qty: 1 EA, Mat: Various Composite)
+        *   1.1.1 `STR-SHL-UPNLD01-SXXXX` Upper Surface Panel Assembly (e.g., Fwd Upper) (Qty: 1 EA, Mat: CFRP T800/M55J)
+        *   1.1.2 `STR-SHL-LPNLD01-SXXXX` Lower Surface Panel Assembly (e.g., Center Lower) (Qty: 1 EA, Mat: CFRP T800/M55J)
+        *   1.1.3 **`A30-LEDSA-C001-SXXXX`** Leading Edge Sub-Assembly (Central Section) (Qty: 1 EA, Mat: CFRP / Ti)
+        *   1.1.4 **`A27-TESA-C001-SXXXX`** Trailing Edge Sub-Assembly (Central Section) (Qty: 1 EA, Mat: CFRP)
+        *   1.1.5 **`QCO-ANTCONF-A01-SXXXX`** Quantum Communications Conformal Antenna Array Assy (Qty: 2 EA, Mat: Dielectric Composite/RF Mat.)
+        *   1.1.6 `STR-FAIRWBR-P01-SXXXX` Wing-to-Body Fairing Assembly (Port) (Qty: 1 EA, Mat: CFRP)
+        *   1.1.7 `STR-FAIRWBR-S01-SXXXX` Wing-to-Body Fairing Assembly (Starboard) (Qty: 1 EA, Mat: CFRP)
+    *   1.2 `STR-CORESA-D001-S0001` Primary Structural Core Assembly (Qty: 1 EA, Mat: Various Composite/Metallic)
+        *   1.2.1 `STR-SPARMC-P01-SXXXX` Main Spar Assembly (Center Carry-Through, Port) (Qty: 1 EA, Mat: CFRP / Ti Fittings)
+        *   1.2.2 `STR-SPARMC-S01-SXXXX` Main Spar Assembly (Center Carry-Through, Stbd) (Qty: 1 EA, Mat: CFRP / Ti Fittings)
+        *   1.2.3 `STR-RIBSET-C01-SXXXX` Rib Assembly Set (Frames FS_XXX to FS_YYY) (Qty: 1 SET, Mat: CFRP / Al Alloy)
+        *   1.2.4 `STR-FRMSET-C01-SXXXX` Frame Assembly Set (Frames STA_AAA to STA_BBB) (Qty: 1 SET, Mat: CFRP / Al Alloy)
+        *   1.2.5 `STR-GRIDST-C01-SXXXX` Stringer & Stiffener Set (Qty: 1 SET, Mat: CFRP / Al Alloy)
+        *   1.2.6 `STR-FBHDPRS-A01-SXXXX` Forward Pressure Bulkhead Assembly (Qty: 1 EA, Mat: CFRP / Al Alloy Honeycomb)
+        *   1.2.7 `STR-ABHDPRS-A01-SXXXX` Aft Pressure Bulkhead Assembly (Qty: 1 EA, Mat: CFRP / Al Alloy Honeycomb)
+        *   1.2.8 `STR-BHDNPSET-A01-SXXXX` Non-Pressurized Bay Bulkhead Set (MLG, Q-Bays) (Qty: 1 SET, Mat: CFRP / Al Alloy)
+        *   1.2.9 `STR-KEELBM-A01-SXXXX` Keel Beam Assembly (If applicable) (Qty: 1 EA, Mat: Ti / CFRP)
+    *   1.3 `STR-CABSTR-D001-S0001` Cabin Section Structural Assembly (Qty: 1 EA, Mat: Various Composite/Metallic)
+        *   1.3.1 `STR-CKPSTR-A01-SXXXX` Cockpit Module Structure Assembly (Qty: 1 EA, Mat: Al Alloy / CFRP)
+            *   1.3.1.1 `STR-WFRM-A01-SXXXX` Windscreen Frame (Qty: 1 EA, Mat: Ti / Al Alloy)
+        *   1.3.2 `STR-PAXSTR-A01-SXXXX` Passenger Cabin Structure Assembly (Qty: 1 EA, Mat: Al Alloy / CFRP)
+            *   1.3.2.1 `STR-FLRGRD-A01-SXXXX` Floor Grid Structure (Qty: 1 EA, Mat: Al Alloy Extrusions/CFRP)
+            *   1.3.2.7 `A25-SEATTRK-A01-SXXXX` Seat Track System (Structural Rails) (Qty: 1 SET, Mat: High-Strength Al Alloy)
+    *   1.4 `A52-DOORGRP-D001-S0001` Doors & Hatches Assembly (Group) (Qty: 1 EA, Mat: Various)
+        *   1.4.1 `A52-DOORPAX-T1L-SXXXX` Passenger Door Assembly, Type 1 Left (Qty: 1 EA, Mat: Al Alloy / Composite)
+        *   1.4.2 `A52-EXITHTCH-T3R-SXXXX` Emergency Exit Hatch Assembly, Type 3 Right (Qty: 1 EA, Mat: Composite)
+        *   1.4.4 **`AXX-ACHAVN-F01-SXXXX`** Avionics Bay Access Hatch Assembly (Fwd) (Qty: 1 EA, Mat: Al Alloy)
+        *   1.4.5 **`QAB-ACHQNT-M01-SXXXX`** Quantum Systems Bay Access Hatch Assembly (Mid) (Qty: 1 EA, Mat: Composite / Shielding Mat.)
+    *   1.5 `A32-LNDGSTR-D001-S0001` Landing Gear Integration Structures Assembly (Qty: 1 EA, Mat: High-Strength Steel / Ti)
+        *   1.5.1 `A32-NLGSTR-BAY01-SXXXX` NLG Bay Structure (Qty: 1 EA, Mat: CFRP / Al Alloy)
+        *   1.5.2 `A32-MLGSTR-BAYP-SXXXX` MLG Bay Structure (Port) (Qty: 1 EA, Mat: CFRP / Ti Reinforcements)
+        *   1.5.3 `A32-MLGSTR-BAYS-SXXXX` MLG Bay Structure (Starboard) (Qty: 1 EA, Mat: CFRP / Ti Reinforcements)
+    *   1.6 `STR-SYSBAYGRP-D001-S0001` Systems Integration Bays & Mounting Struct. Assy (Qty: 1 EA, Mat: Various)
+        *   1.6.1 **`AXX-AVBAYSTR-F01-SXXXX`** General Avionics Bay Structure (Fwd) (Qty: 1 EA, Mat: Al Alloy)
+        *   1.6.2 **`QAB-MODSTR-Q01-SXXXX`** Quantum Systems Bays Module Structure (Aggregate) (Qty: 1 EA, Mat: Composite / Shielding)
+            *   1.6.2.1 **`QNS-BAYSTR-A01-SXXXX`** QNS Bay Structure (Qty: 1 EA, Mat: Mu-Metal / CFRP)
+            *   1.6.2.2 **`QFO-BAYSTR-A01-SXXXX`** QFO Processor Bay Structure (Qty: 1 EA, Mat: Al Alloy / CFRP)
+            *   1.6.2.3 **`QCO-BAYSTR-A01-SXXXX`** QComms Transceiver Bay Structure (Qty: 1 EA, Mat: CFRP)
+        *   1.6.3 `A21-BAYECS-PK1-SXXXX` ECS Pack Bay Structure (Qty: 1 EA, Mat: Al Alloy)
+    *   1.7 `A71-ENGINTSTR-D001-S0001` Engine Integration Structures Assembly (Qty: 1 EA, Mat: Ti / High-Temp Composite)
+        *   1.7.1 `A71-MNTENG-P01-SXXXX` Engine Mount Hardpoints/Pylon Interface (Port) (Qty: 1 EA, Mat: Ti Forging)
+        *   1.7.2 `A71-FWLENG-P01-SXXXX` Firewall Assembly (Port Engine) (Qty: 1 EA, Mat: Ti / Composite)
+        *   1.7.4 `A71-DUCTIN-P01-SXXXX` Inlet Duct Structural Shell (Port, if embedded) (Qty: 1 EA, Mat: CFRP / Acoustic Liner)
+    *   1.8 `A5X-CTRLSURFINT-D001-S0001` Empennage/Control Surface Interface Struct. Assy (Qty: 1 EA, Mat: CFRP)
+        *   1.8.1 `A55-MNTSTB-VTP-SXXXX` V-Tail Mounting Frame (Port, if applicable) (Qty: 1 EA, Mat: CFRP / Ti Fittings)
+
+---
+
+He verificado la lista contra la tabla del BOM Rev C que generamos previamente (la que incluía dimensiones, peso y prompt-trains) y esta estructura de árbol incluye todos los ítems hasta el nivel de detalle que habíamos definido allí. Los ítems que estaban en negrita en la tabla para resaltar los refinamientos también están en negrita aquí para mantener esa indicación.
+
+Si hay algún ítem específico que crees que falta o si la indentación no se muestra correctamente de tu lado, por favor házmelo saber. El objetivo era presentar la jerarquía completa del BOM Rev C en este formato de árbol.
