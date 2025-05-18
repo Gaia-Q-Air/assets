@@ -1,0 +1,53 @@
+# GAIA-QAO Metadata File
+# Filename: GAIA-META-HYD-AMPEL360-001.yaml
+# Generated based on GAIA-QAO Aerospace Documentation (Version 0.6.0)
+# Current Date: 2025-05-12
+
+# --- Core Identification ---
+metadata_id: "GAIA-META-HYD-AMPEL360-001"
+domain:
+  code: "HYD"
+  name: "Hydraulic System" # As per Part 2.2.2
+model_details:
+  functional_class:
+    code: "HYD"
+    name: "Hydraulic System" # As per functional_classes table / Part 3.2.1
+  object_category_subtype:
+    code: "AMPEL360"
+    name: "AMPEL360 BWB-Q100" # As per Appendix A.1.1 for HYD ST Codes
+  model_code: "HYD-AMPEL360-001" # As per GAIA-QAO ID
+  model_name: "Hydraulic System for AMPEL360 BWB-Q100" # As per Part 3.2.1
+  description: "Hydraulic system with quantum-enhanced components for AMPEL360 BWB-Q100" # As per Part 3.2.1
+  # Decomposed from MDL Code 'HYD-AMPEL360-001' based on Part 3.1
+  generation_series: "HYD" # Hydraulic
+  number_size: "001" # First model
+  variant_details: "AMPEL360" # Specific to AMPEL360 BWB-Q100
+  # Key Specifications from Part 3.2.1
+  technical_specifications:
+    operating_pressure_psi: 3000
+    fluid_type: "MIL-H-5606"
+    reservoir_capacity_liters: 10
+    pump_flow_rate_liters_per_minute: 15
+    system_weight_kg: 50
+    quantum_technology:
+      - "Quantum-Enhanced Hydraulic Pumps"
+      - "Quantum Sensors"
+  # Catalog Notes from Part 3.2.1
+  catalog_notes: "Hydraulic system with quantum-enhanced components for AMPEL360 BWB-Q100. Full specs in registry."
+
+# --- Certification Data ---
+certification:
+  easa_status: "Pending"
+  dmrl_classification:
+    - "G1"
+    - "G3"
+
+# --- Integration Metadata ---
+integration:
+  gaia_qao_systems: "Compatible"
+  performance_parameters:
+    - "Optimized fluid flow and pressure"
+    - "Real-time diagnostics and predictive maintenance"
+  quantum_improvements:
+    - "Higher efficiency and reliability"
+    - "Unprecedented accuracy in monitoring"

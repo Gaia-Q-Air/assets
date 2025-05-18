@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PartsList>
+  <Part>
+    <PartNumber>HYD-001</PartNumber>
+    <Description>Quantum-Enhanced Hydraulic Pump</Description>
+    <Specifications>
+      <OperatingPressure>3000 psi</OperatingPressure>
+      <FlowRate>15 liters per minute</FlowRate>
+      <Weight>5 kg</Weight>
+      <Technology>Quantum</Technology>
+    </Specifications>
+    <Maintenance>
+      <Interval>1000 flight hours</Interval>
+      <Tasks>
+        <Task>Inspect for leaks</Task>
+        <Task>Test operation</Task>
+      </Tasks>
+      <Lifespan>5000 flight hours</Lifespan>
+    </Maintenance>
+  </Part>
+  <Part>
+    <PartNumber>HYD-002</PartNumber>
+    <Description>Hydraulic Reservoir</Description>
+    <Specifications>
+      <Capacity>10 liters</Capacity>
+      <Weight>3 kg</Weight>
+    </Specifications>
+    <Maintenance>
+      <Interval>2000 flight hours</Interval>
+      <Tasks>
+        <Task>Inspect for contamination</Task>
+        <Task>Replace fluid</Task>
+      </Tasks>
+      <Lifespan>10000 flight hours</Lifespan>
+    </Maintenance>
+  </Part>
+  <Part>
+    <PartNumber>HYD-003</PartNumber>
+    <Description>Quantum Sensor</Description>
+    <Specifications>
+      <Type>Pressure</Type>
+      <Accuracy>0.1%</Accuracy>
+      <Weight>0.5 kg</Weight>
+      <Technology>Quantum</Technology>
+    </Specifications>
+    <Maintenance>
+      <Interval>500 flight hours</Interval>
+      <Tasks>
+        <Task>Calibrate sensor</Task>
+        <Task>Inspect connections</Task>
+      </Tasks>
+      <Lifespan>2000 flight hours</Lifespan>
+    </Maintenance>
+  </Part>
+  <Part>
+    <PartNumber>HYD-004</PartNumber>
+    <Description>Hydraulic Line</Description>
+    <Specifications>
+      <Length>5 meters</Length>
+      <Diameter>10 mm</Diameter>
+      <Weight>1 kg</Weight>
+    </Specifications>
+    <Maintenance>
+      <Interval>1000 flight hours</Interval>
+      <Tasks>
+        <Task>Inspect for wear</Task>
+        <Task>Replace if damaged</Task>
+      </Tasks>
+      <Lifespan>5000 flight hours</Lifespan>
+    </Maintenance>
+  </Part>
+</PartsList>
