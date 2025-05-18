@@ -77,7 +77,7 @@
 #### 3.2.3 Intelligence, Surveillance, Reconnaissance (ISR) Models
 
 | Sub-Type (ST) | MDL Code | Model Name                                                                                                              | Description                                   | Key Specifications                         | **GAIA-QAO ID Example & Catalog Notes**                                                                                                                                             |
-| :------------ | :------- | :---------------------------------------------------------------------------------------------------------------------- | :------------------------------------------- | :----------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------ | :------- | :---------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------- | :----------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | UA            | Q2L      | [QuantumHawk QH-20L](https://github.com/Gaia-Q-Air/assets/blob/main/AS/U/ISR/UA/Q2L/QuantumHawk-QH-20L.md)              | Medium long-endurance quantum UAS             | Endurance: 48 hrs, Ceiling: 15,000 m     | **ID:** `AS-U-ISR-UA-Q2L-00301` <br> **Autonomy:** U. **Notes:** Long-endurance ISR UAS with quantum-enhanced sensors. Full specs in registry.                                     |
 | MA            | Q3H      | [QuantumMaritime QM-300](https://github.com/Gaia-Q-Air/assets/blob/main/AS/M/ISR/MA/Q3H/QuantumMaritime-QM-300.md)      | Large high-performance quantum maritime patrol| Endurance: 24 hrs, Range: 9,000 km       | **ID:** `AS-M-ISR-MA-Q3H-00302` <br> **Autonomy:** M. **Notes:** High-performance maritime patrol with quantum sensors. Full specs in registry.                                   |
 | SR            | Q2S      | [QuantumRecon QR-200S](https://github.com/Gaia-Q-Air/assets/blob/main/AS/U/ISR/SR/Q2S/QuantumRecon-QR-200S.md)          | Medium special purpose strategic recon        | Ceiling: 25,000 m, Speed: Mach 3           | **ID:** `AS-U-ISR-SR-Q2S-00303` <br> **Autonomy:** U. **Notes:** High-altitude, high-speed strategic reconnaissance with quantum systems. Full specs in registry.                |
@@ -281,3 +281,37 @@
 This section provides an overview of the Predictive Maintenance and Quantum Optimization Blueprint. The blueprint integrates classical machine learning models with quantum algorithms to enhance predictive maintenance and optimize route planning in aerospace systems.
 
 For detailed documentation, please refer to the [Predictive Maintenance and Quantum Optimization Blueprint Documentation](https://github.com/Gaia-Q-Air/assets/blob/main/AS/M/PAX/BW/Q1H/00001.yaml).
+
+## Toolchain for GAIA-Q-AIR Development
+
+The development of GAIA-Q-AIR involves a comprehensive toolchain that includes various compilers, linkers, debuggers, IDEs, static and dynamic analysis tools, and configuration management systems. This toolchain ensures efficient and reliable development processes for aerospace software.
+
+### Compilers
+- **GCC:** GNU Compiler Collection for C and C++ development.
+- **Clang:** A compiler for C, C++, and Objective-C.
+
+### Linkers
+- **GNU ld:** The GNU linker for combining object files into executables.
+- **LLD:** The LLVM linker for faster linking times.
+
+### Debuggers
+- **GDB:** The GNU Debugger for debugging applications.
+- **LLDB:** The LLVM Debugger for debugging C, C++, and Objective-C code.
+
+### Integrated Development Environments (IDEs)
+- **Visual Studio Code:** A lightweight but powerful source code editor with support for various programming languages.
+- **CLion:** A cross-platform IDE for C and C++ development by JetBrains.
+
+### Static Analysis Tools
+- **Cppcheck:** A static analysis tool for C and C++ code.
+- **Clang Static Analyzer:** A source code analysis tool that finds bugs in C, C++, and Objective-C programs.
+
+### Dynamic Analysis Tools
+- **Valgrind:** A programming tool for memory debugging, memory leak detection, and profiling.
+- **AddressSanitizer:** A fast memory error detector.
+
+### Configuration Management Systems
+- **Git:** A distributed version control system for tracking changes in source code.
+- **Subversion (SVN):** A version control system for maintaining current and historical versions of files.
+
+---
