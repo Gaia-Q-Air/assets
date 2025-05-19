@@ -1,5 +1,9 @@
 # AMPEL360 BWB-Q100 Hydraulic System Specification
 
+## Disclaimer
+
+This documentation is a GenAI proposal and has not been reviewed by aviation authorities. It is intended for design exploration and documentation purposes only and should not be used for certification or operational purposes.
+
 ## Introduction
 
 This document provides a comprehensive technical specification of the hydraulic system for the AMPEL360 BWB-Q100 aircraft. The hydraulic system is designed to meet the stringent requirements of modern aerospace applications, ensuring reliability, efficiency, and safety.
