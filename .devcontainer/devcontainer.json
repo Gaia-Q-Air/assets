@@ -650,3 +650,8 @@
     "ms-vscode-remote.vscode-remote-containers",
     "ms-vscode-remote.vscode-remote-ssh",
     "
+,
+"tasks": {},
+"tasks": {
+  "build": "No build commands are necessary."
+}

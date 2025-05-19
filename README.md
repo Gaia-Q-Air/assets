@@ -320,16 +320,3 @@ The development of GAIA-Q-AIR involves a comprehensive toolchain that includes v
 
 ---
 
-## Recommended Next Steps
-
-1. **Means of Compliance Document:** Detail the methodologies for compliance demonstration.
-2. **Special Conditions Request:** Prepare for EASA if BWB/quantum aspects are novel.
-3. **Certification Program Plan:** Timeline and resource allocation.
-4. **Compliance Checklist:** Track all requirements and sub-requirements.
-5. **Quantum Systems Safety Assessment:** Dedicated safety analysis for quantum systems.
-
----
-
-## Disclaimer
-
-This EASA certification mapping document is a GenAI proposal and has not been reviewed by aviation authorities. It is intended for design exploration and documentation purposes only and should not be used for certification or operational purposes.
