@@ -1,5 +1,9 @@
 # Blended Wing Body (BW) Overview
 
+## Disclaimer
+
+This documentation is a GenAI proposal and has not been reviewed by aviation authorities. It is intended for design exploration and documentation purposes only and should not be used for certification or operational purposes.
+
 The Blended Wing Body (BW) is a revolutionary aircraft design that seamlessly integrates the fuselage and wing into a unified lifting surface. This design offers unparalleled aerodynamic efficiency, reduced fuel consumption, and enhanced passenger comfort.
 
 ## Key Features
@@ -48,5 +52,15 @@ The development of GAIA-Q-AIR involves a comprehensive toolchain that includes v
 ### Configuration Management Systems
 - **Git:** A distributed version control system for tracking changes in source code.
 - **Subversion (SVN):** A version control system for maintaining current and historical versions of files.
+
+---
+
+## Recommended Next Steps
+
+1. **Means of Compliance Document:** Detail the methodologies for compliance demonstration.
+2. **Special Conditions Request:** Prepare for EASA if BWB/quantum aspects are novel.
+3. **Certification Program Plan:** Timeline and resource allocation.
+4. **Compliance Checklist:** Track all requirements and sub-requirements.
+5. **Quantum Systems Safety Assessment:** Dedicated safety analysis for quantum systems.
 
 ---

@@ -1,5 +1,9 @@
 # QAO Air Systems
 
+## Disclaimer
+
+This documentation is a GenAI proposal and has not been reviewed by aviation authorities. It is intended for design exploration and documentation purposes only and should not be used for certification or operational purposes.
+
 ## 1. Part 1: Software Technology Landscape in Aerospace and Military Systems
 * This entire part is foundational for Air Systems. It details software priorities (reliability, safety), critical standards (DO-178C for civil aviation, MIL-STD-498 for military), common programming languages (Ada, C, C++, Python, MATLAB/Simulink, Rust), development environments (GHS MULTI, Wind River VxWorks, SCADE), Real-Time Operating Systems (ARINC 653), communication buses (ARINC 429, MIL-STD-1553B), and certification processes pertinent to aircraft and other aerospace vehicles.
 
@@ -315,3 +319,17 @@ The development of GAIA-Q-AIR involves a comprehensive toolchain that includes v
 - **Subversion (SVN):** A version control system for maintaining current and historical versions of files.
 
 ---
+
+## Recommended Next Steps
+
+1. **Means of Compliance Document:** Detail the methodologies for compliance demonstration.
+2. **Special Conditions Request:** Prepare for EASA if BWB/quantum aspects are novel.
+3. **Certification Program Plan:** Timeline and resource allocation.
+4. **Compliance Checklist:** Track all requirements and sub-requirements.
+5. **Quantum Systems Safety Assessment:** Dedicated safety analysis for quantum systems.
+
+---
+
+## Disclaimer
+
+This EASA certification mapping document is a GenAI proposal and has not been reviewed by aviation authorities. It is intended for design exploration and documentation purposes only and should not be used for certification or operational purposes.
