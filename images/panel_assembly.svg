@@ -1,21 +1,39 @@
-<img src="https://github.com/Gaia-Q-Air/assets/raw/main/images/panel_assembly.svg" alt="Panel Assembly"><!-- CGM PLACEHOLDER: converted from SVG -->
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="160mm" version="1.1" viewBox="0 0 260 160" width="260mm">
-  <defs/>
-  <rect class="fig-1" fill="#f7f7f7" height="140" id="53-41-25-101" width="240" x="0" y="0" stroke-width="1.25" stroke="#003A80" font-family="Arial" font-size="12"/>
-  <rect class="fig-2" fill="#f7f7f7" height="60" id="53-41-25-103" width="60" x="90" y="40" stroke-width="1.25" stroke="#003A80" font-family="Arial" font-size="12"/>
-  <circle class="fig-3" cx="20" cy="20" fill="#888" r="4" stroke-width="1.25" stroke="#003A80" font-family="Arial" font-size="12"/>
-  <circle class="fig-3" cx="220" cy="20" fill="#888" r="4" stroke-width="1.25" stroke="#003A80" font-family="Arial" font-size="12"/>
-  <circle class="fig-3" cx="20" cy="120" fill="#888" r="4" stroke-width="1.25" stroke="#003A80" font-family="Arial" font-size="12"/>
-  <circle class="fig-3" cx="220" cy="120" fill="#888" r="4" stroke-width="1.25" stroke="#003A80" font-family="Arial" font-size="12"/>
-  <rect class="fig-4" fill="none" height="136" stroke="#003A80" width="236" x="2" y="2" stroke-width="1.25" font-family="Arial" font-size="12"/>
-  <text class="notes" x="150" y="10" stroke-width="1.25" stroke="#003A80" font-family="Arial" font-size="12" fill="#CC0000" font-style="italic">Filler panel attaches item 1</text>
-  <text class="callouts" fill="#003A80" font-family="Arial" font-size="12" x="120.0" y="-5" stroke-width="1.25" stroke="#003A80" font-weight="bold">1</text>
-  <text class="callouts" fill="#003A80" font-family="Arial" font-size="12" x="120.0" y="35" stroke-width="1.25" stroke="#003A80" font-weight="bold">2</text>
-  <text class="callouts" fill="#003A80" font-family="Arial" font-size="12" x="20.0" y="15" stroke-width="1.25" stroke="#003A80" font-weight="bold">3</text>
-  <text class="callouts" fill="#003A80" font-family="Arial" font-size="12" x="220.0" y="15" stroke-width="1.25" stroke="#003A80" font-weight="bold">3</text>
-  <text class="callouts" fill="#003A80" font-family="Arial" font-size="12" x="20.0" y="115" stroke-width="1.25" stroke="#003A80" font-weight="bold">3</text>
-  <text class="callouts" fill="#003A80" font-family="Arial" font-size="12" x="220.0" y="115" stroke-width="1.25" stroke="#003A80" font-weight="bold">3</text>
-  <text class="callouts" fill="#003A80" font-family="Arial" font-size="12" x="120.0" y="-3" stroke-width="1.25" stroke="#003A80" font-weight="bold">4</text>
-  <text class="callouts" fill="#003A80" font-family="Arial" font-size="12" x="0.0" y="-5" stroke-width="1.25" stroke="#003A80" font-weight="bold">5</text>
-</svg>
+# Panel Assembly Diagram
+
+This document provides a formal technical description of the **Panel Assembly** as represented in the accompanying SVG schematic (`panel_assembly.svg`). The diagram is intended for use in aerospace system documentation, supporting configuration management, manufacturing, and maintenance operations.
+
+## 1. Diagram Overview
+
+The SVG schematic depicts a primary panel structure, a subordinate filler panel, and designated mounting or fastener points. All graphical callouts are enumerated for unambiguous reference in part lists and work instructions.
+
+## 2. Component Key
+
+| Callout | Description                          |
+|---------|--------------------------------------|
+| 1       | Main Panel Assembly                  |
+| 2       | Filler Panel (subassembly/component) |
+| 3       | Mounting/Fastener Locations          |
+| 4       | Reference Border/Outline             |
+| 5       | Special Reference or Datum Point     |
+
+## 3. Notes
+
+- The filler panel (2) is designed to attach directly to the main panel assembly (1).
+- Mounting/fastener locations (3) are symmetrically positioned at the corners of the main panel.
+- The outer reference border (4) is for alignment or clearance verification.
+- The special reference (5) denotes a datum or critical inspection point as per engineering requirements.
+
+## 4. Usage
+
+- This schematic is used for assembly procedures, configuration audits, and technical publications.
+- All referenced items comply with aerospace engineering standards for documentation, including revision control and traceability.
+- The SVG format ensures scalability and precision for electronic technical manuals (ETMs) and digital twin integration.
+
+## 5. File Reference
+
+- **SVG Source:** [`panel_assembly.svg`](https://github.com/Gaia-Q-Air/assets/raw/main/images/panel_assembly.svg)
+
+---
+
+For further details on part definitions or bill of materials (BOM) integration, refer to the associated parts list and engineering change documentation.
+
