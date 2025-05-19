@@ -469,3 +469,37 @@ The hydraulic system of the AMPEL360 BWB-Q100 is designed to meet the stringent 
   - Test the operation of hydraulic pumps and actuators.
 
 For a comprehensive technical specification of the hydraulic system, refer to the [Hydraulic System Specification Document](./hydraulic-system-specification.md).
+
+---
+
+## BWB Wing-Body Junction Spar
+
+### Top View Diagram
+
+WING OUTBOARD       WING-BODY JUNCTION       WING OUTBOARD
+┌───────────────┬═══════════════════┬───────────────┐
+│               │ ╔════╗            │               │
+│               │ ║    ║            │               │
+│               │ ║    ║            │               │
+│               │ ║    ║            │               │
+│               │ ║    ║            │               │
+│               │ ║    ║            │               │
+│---------------┼══════╩════╩══════─┼---------------│
+│<-- WING -->   │<-- SPAR ZONE -->  │<-- WING -->   │
+│               │   (FUSELAGE)      │               │
+└───────────────┴═══════════════════┴───────────────┘
+
+### Legend
+- "═"      Spar cap/flange  
+- "║║"     Main spar web  
+- "╔════╗" Reinforced junction  
+- "●"      Fastener  
+- "◉"      Quantum sensor
+
+### Front / Side View
+
+[╔═══════╗]    (Reinforced spar/junction module cross-section)
+
+### Section A-A
+
+[╠═╬═╬═╬═╣]   (Spar cap/flange with web and fastener/sensor integration)
