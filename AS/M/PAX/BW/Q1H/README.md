@@ -470,43 +470,140 @@ The hydraulic system of the AMPEL360 BWB-Q100 is designed to meet the stringent 
 
 For a comprehensive technical specification of the hydraulic system, refer to the [Hydraulic System Specification Document](./hydraulic-system-specification.md).
 
+
 ---
 
-## BWB Wing-Body Junction Spar
+# BWB Wing-Body Junction Spar  
+**GenAI Proposal Status:**  
+> _This documentation is a GenAI proposal and has not been reviewed by aviation authorities. It is intended for design exploration and documentation purposes only and should not be used for certification or operational purposes._
 
-### Top View Diagram
+---
 
-WING OUTBOARD       WING-BODY JUNCTION       WING OUTBOARD
+## 1. System Overview
+
+A high-level wing-body junction spar for BWB (Blended Wing-Body) aircraft, designed for optimal load transfer, advanced real-time monitoring, and modular maintainability.
+
+---
+
+## 2. Diagrams
+
+```
+Top View
+WING OUTBOARD    WING-BODY JUNCTION    WING OUTBOARD
 ┌───────────────┬═══════════════════┬───────────────┐
-│               │ ╔════╗            │               │
-│               │ ║    ║            │               │
-│               │ ║    ║            │               │
-│               │ ║    ║            │               │
-│               │ ║    ║            │               │
-│               │ ║    ║            │               │
+│               │   ╔════╗          │               │
+│               │   ║    ║          │               │
+│               │   ║    ║          │               │
+│               │   ║    ║          │               │
 │---------------┼══════╩════╩══════─┼---------------│
 │<-- WING -->   │<-- SPAR ZONE -->  │<-- WING -->   │
 │               │   (FUSELAGE)      │               │
 └───────────────┴═══════════════════┴───────────────┘
 
-### Legend
-- "═"      Spar cap/flange  
-- "║║"     Main spar web  
-- "╔════╗" Reinforced junction  
-- "●"      Fastener  
-- "◉"      Quantum sensor
+Legend:
+"═"   Spar cap/flange  
+"║║"  Main spar web  
+"╔════╗" Reinforced junction  
+"●"   Fastener  
+"◉"   Quantum sensor  
 
-### Front / Side View
+Front/Side View  
+[╔═══════╗] (Reinforced spar/junction module cross-section)
 
-[╔═══════╗]    (Reinforced spar/junction module cross-section)
-
-### Section A-A
-
-[╠═╬═╬═╬═╣]   (Spar cap/flange with web and fastener/sensor integration)
+Section A-A  
+[╠═╬═╬═╬═╣] (Spar cap/flange with web and fastener/sensor integration)
+```
 
 ---
 
-## Geometric Dimensioning and Tolerancing Specification: BWB Wing-Body Junction Spar
+## 3. 3D CAD/FEA-Ready Specifications
+
+**Geometry & Features**
+- Main box/beam spar with reinforced junction (fuselage interface)
+- I-beam or closed box cross-section; local thickening at junction
+- Cutouts for fasteners and sensors; inspection ports as needed
+
+**Parametric Data**
+| Parameter             | Symbol | Typical Value (Example) |
+|-----------------------|--------|-------------------------|
+| Spar Length           | L      | 2.5 m                   |
+| Spar Height           | H      | 0.30 m                  |
+| Spar Width            | W      | 0.10 m                  |
+| Flange Thickness      | tf     | 8 mm                    |
+| Web Thickness         | tw     | 4 mm                    |
+| Junction Reinforcement| --     | 0.5 m (length)          |
+| Fastener/Sensor Pitch | --     | 75 mm                   |
+
+**FEA Setup**
+- Mesh: Hex-dominant for webs/flanges, tetrahedral at junction
+- Boundary conditions: Fixed at fuselage, distributed loads at wing
+- Material properties assigned per section (see below)
+
+---
+
+## 4. Material/System Trade Studies
+
+| Component             | Candidate Materials                       | Notes                                   |
+|-----------------------|-------------------------------------------|-----------------------------------------|
+| Spar Caps/Flanges     | IM7/8552 CFRP, T700S CFRP, AA2195 Al-Li   | High stiffness/weight, fatigue critical |
+| Spar Web              | Glass/epoxy, Ti alloy, CFRP               | Shear transfer, impact/fatigue zones    |
+| Junction Reinforcement| Hybrid (C/Aramid), Ti/Steel doublers      | Strengthened interface                  |
+| Fasteners             | Titanium bolts, Hi-Lok, blind rivets      | Corrosion-resistant, composite/metal    |
+| Sensors               | Quantum MEMS, FBG (optical), SHM modules  | Strain/health monitoring                |
+
+- Corrosion/galvanic isolation: Use insulating washers, sealants
+- Fatigue/damage tolerance: Local FEA hot spot evaluation
+
+---
+
+## 5. Embedded Systems Integration
+
+**Sensor Layout**
+- High-stress points: Junction, spar caps, web midspan
+- Embedded in composite layup or potted in bores
+- Dual arrays for redundancy
+
+**SHM Electronics**
+- DAQ: Miniaturized, edge AI-capable modules
+- Network: Fiber-optic for FBG, quantum interface for QMEMS
+- Power: Aircraft bus or local backup
+- Data: CAN, ARINC, Ethernet (airborne); SpaceWire (spaceborne)
+
+---
+
+## 6. Assembly & Maintenance
+
+**Assembly Sequence**
+1. Inspect & prep all spar components
+2. Pre-assemble junction reinforcement with embedded sensors
+3. Apply anti-corrosion coatings as needed
+4. Assemble spar web and caps; install fasteners to spec
+5. Connect and test sensor wiring
+
+**Maintenance**
+- Visual/NDI inspection at junctions and fasteners
+- Periodic calibration of FBG/quantum sensors
+- Composite scarf/patch or metallic doubler repairs as needed
+- Quick-disconnect sensor modules for field replacement
+- Maintain digital twin for traceability (CAD + SHM logs)
+
+---
+
+## 7. Revision Log
+
+| Date       | Author      | Revision | Notes            |
+|------------|-------------|----------|------------------|
+| 2025-05-24 | Robbbo-T    | 0.1      | Initial Draft    |
+
+---
+
+## 8. Notes
+
+- For 3D models: See [CAD directory or attach as .stp/.igs]
+- For FEA scripts: See [FEA directory or attach as .inp/.cdb/.fem]
+- For SHM code: See [Embedded directory or attach as .py/.rs/.c]
+
+---
 
 **GenAI Proposal Status: Disclaimer**  
 *This documentation is a GenAI proposal and has not been reviewed by aviation authorities. It is intended for design exploration and documentation purposes only and should not be used for certification or operational purposes.*
