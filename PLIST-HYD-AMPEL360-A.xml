@@ -69,4 +69,57 @@
       <Lifespan>5000 flight hours</Lifespan>
     </Maintenance>
   </Part>
+  <Part>
+    <PartNumber>HYD-005</PartNumber>
+    <Description>Quantum-Enhanced Hydraulic Actuator</Description>
+    <Specifications>
+      <OperatingPressure>3000 psi</OperatingPressure>
+      <Force>2000 N</Force>
+      <Weight>4 kg</Weight>
+      <Technology>Quantum</Technology>
+    </Specifications>
+    <Maintenance>
+      <Interval>1500 flight hours</Interval>
+      <Tasks>
+        <Task>Inspect for leaks</Task>
+        <Task>Test operation</Task>
+      </Tasks>
+      <Lifespan>6000 flight hours</Lifespan>
+    </Maintenance>
+  </Part>
+  <Part>
+    <PartNumber>HYD-006</PartNumber>
+    <Description>Hydraulic Filter</Description>
+    <Specifications>
+      <FiltrationRating>5 microns</FiltrationRating>
+      <FlowRate>20 liters per minute</FlowRate>
+      <Weight>0.8 kg</Weight>
+    </Specifications>
+    <Maintenance>
+      <Interval>1000 flight hours</Interval>
+      <Tasks>
+        <Task>Inspect for contamination</Task>
+        <Task>Replace filter element</Task>
+      </Tasks>
+      <Lifespan>4000 flight hours</Lifespan>
+    </Maintenance>
+  </Part>
+  <Part>
+    <PartNumber>HYD-007</PartNumber>
+    <Description>Quantum-Enhanced Hydraulic Control Valve</Description>
+    <Specifications>
+      <OperatingPressure>3000 psi</OperatingPressure>
+      <FlowRate>10 liters per minute</FlowRate>
+      <Weight>2 kg</Weight>
+      <Technology>Quantum</Technology>
+    </Specifications>
+    <Maintenance>
+      <Interval>1200 flight hours</Interval>
+      <Tasks>
+        <Task>Inspect for leaks</Task>
+        <Task>Test operation</Task>
+      </Tasks>
+      <Lifespan>5000 flight hours</Lifespan>
+    </Maintenance>
+  </Part>
 </PartsList>
